@@ -1,7 +1,7 @@
-# 99-Textadventure-refactoring
+# 02-Textadventure-refactoring-CDoll
 This is a school project a textadventure game to learn refactoring. 
 
-+ **What is the game theme?**  Si Fi scenario with robots. 
++ **What is the game theme?**  Sci Fi scenario with robots. 
 + **Who is the player?** the player slips into the role of Eduard the service robot. 
 + **What is the goal?** keep your godhuman alive (does not die of thirst) until rescue is approaching.   
 + **Referenz Resolution**: 1920x1080
