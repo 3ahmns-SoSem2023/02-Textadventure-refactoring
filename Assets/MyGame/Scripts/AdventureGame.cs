@@ -7,6 +7,7 @@ public class AdventureGame : MonoBehaviour
 {
     private const string STATEINFOALARM = "Info.Alarm";
     private const string STATEINFODONE = "Info.Done";
+    private const string STATECOLLECTINFO = "Collect.Info";
 
     //private static readonly System.Random getrandom = new System.Random(123);
 
@@ -207,7 +208,7 @@ public class AdventureGame : MonoBehaviour
             return nextState;
         }
 
-        if (currentState.name == "Knit.Do" && currentState.name == "Collect.Info")
+        if (currentState.name == "Knit.Do" && currentState.name == STATECOLLECTINFO)
         {
             overrideTextComponent = false;
         }
